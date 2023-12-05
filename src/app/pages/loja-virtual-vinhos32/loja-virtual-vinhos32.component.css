@@ -1,0 +1,1842 @@
+:host { 
+  display: contents; 
+}
+.loja-virtual-vinhos32-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.loja-virtual-vinhos32-header {
+  width: 100%;
+  height: 242px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.86);
+}
+.loja-virtual-vinhos32-navbar-interactive {
+  width: 90%;
+  height: 145px;
+  display: flex;
+  position: sticky;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  padding-left: var(--dl-space-space-threeunits);
+  border-radius: 50px;
+  padding-right: 43px;
+  padding-bottom: 29px;
+  justify-content: space-between;
+  background-color: #7f5555;
+}
+.loja-virtual-vinhos32-container1 {
+  flex: 0 0 auto;
+  width: Large;
+  height: auto;
+  display: flex;
+  align-items: space-between;
+  flex-direction: column;
+}
+.loja-virtual-vinhos32-navlink {
+  display: contents;
+}
+.loja-virtual-vinhos32-image {
+  flex: 1;
+  width: var(--dl-size-size-large);
+  object-fit: cover;
+  text-decoration: none;
+}
+.loja-virtual-vinhos32-desktop-menu {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+.loja-virtual-vinhos32-links {
+  flex: 1;
+  width: 408px;
+  height: 58px;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.loja-virtual-vinhos32-nav1 {
+  color: rgb(255, 255, 255);
+  transition: 0.3s;
+  text-decoration: none;
+}
+.loja-virtual-vinhos32-nav1:hover {
+  color: #3d6e70ff;
+}
+.loja-virtual-vinhos32-nav2 {
+  color: rgb(255, 255, 255);
+  transition: 0.3s;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.loja-virtual-vinhos32-nav2:hover {
+  color: #3d6e70ff;
+}
+.loja-virtual-vinhos32-nav4 {
+  color: rgb(251, 250, 250);
+  transition: 0.3s;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.loja-virtual-vinhos32-nav4:hover {
+  color: #3d6e70ff;
+}
+.loja-virtual-vinhos32-nav5 {
+  color: rgb(255, 255, 255);
+  transition: 0.3s;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.loja-virtual-vinhos32-nav5:hover {
+  color: #3d6e70ff;
+}
+.loja-virtual-vinhos32-buttons {
+  height: 38px;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.loja-virtual-vinhos32-login {
+  color: #ff0000;
+  font-style: normal;
+  font-weight: 700;
+  border-color: #000000;
+  border-width: 1px;
+  margin-right: var(--dl-space-space-twounits);
+  padding-left: 1.5rem;
+  border-radius: 45px;
+  padding-right: 1.5rem;
+  text-decoration: none;
+  background-color: #ffffff;
+}
+.loja-virtual-vinhos32-register {
+  color: var(--dl-color-gray-white);
+  padding: mixed;
+  transition: 0.3s;
+  font-weight: bold;
+  border-color: #100f00;
+  border-radius: 45px;
+  padding-right: mixed;
+  text-decoration: none;
+  background-color: #ce0107;
+}
+.loja-virtual-vinhos32-register:hover {
+  border-color: rgba(41, 20, 119, 0.9);
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  background-color: rgba(41, 20, 119, 0.9);
+}
+.loja-virtual-vinhos32-burger-menu {
+  display: none;
+}
+.loja-virtual-vinhos32-icon {
+  width: var(--dl-size-size-xsmall);
+  cursor: pointer;
+  height: var(--dl-size-size-xsmall);
+}
+.loja-virtual-vinhos32-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  border-radius: 50px;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--dl-color-gray-white);
+}
+.loja-virtual-vinhos32-nav {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.loja-virtual-vinhos32-top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.loja-virtual-vinhos32-logo {
+  font-size: 2em;
+  font-weight: bold;
+}
+.loja-virtual-vinhos32-close-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loja-virtual-vinhos32-icon02 {
+  fill: var(--dl-color-gray-900);
+  width: var(--dl-size-size-xsmall);
+  cursor: pointer;
+  height: var(--dl-size-size-xsmall);
+}
+.loja-virtual-vinhos32-links1 {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.loja-virtual-vinhos32-nav11 {
+  color: var(--dl-color-gray-black);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.loja-virtual-vinhos32-nav21 {
+  color: var(--dl-color-gray-black);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.loja-virtual-vinhos32-nav3 {
+  color: var(--dl-color-gray-black);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.loja-virtual-vinhos32-nav41 {
+  color: var(--dl-color-gray-black);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.loja-virtual-vinhos32-nav51 {
+  color: var(--dl-color-gray-black);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.loja-virtual-vinhos32-buttons1 {
+  display: flex;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.loja-virtual-vinhos32-login1 {
+  border-color: var(--dl-color-primary1-blue100);
+  border-width: 1px;
+  margin-right: var(--dl-space-space-twounits);
+  padding-left: 1.5rem;
+  border-radius: 30px;
+  padding-right: 1.5rem;
+}
+.loja-virtual-vinhos32-register1 {
+  color: var(--dl-color-gray-white);
+  transition: 0.3s;
+  border-color: var(--dl-color-primary1-blue100);
+  border-width: 1px;
+  padding-left: 1.5rem;
+  border-radius: 30px;
+  padding-right: 1.5rem;
+  background-color: var(--dl-color-primary1-blue100);
+}
+.loja-virtual-vinhos32-register1:hover {
+  border-color: #849492ff;
+  background-color: #849492ff;
+}
+.loja-virtual-vinhos32-icon04 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.loja-virtual-vinhos32-icon06 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.loja-virtual-vinhos32-icon08 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.loja-virtual-vinhos32-thq-dropdown {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.loja-virtual-vinhos32-dropdown-toggle {
+  fill: #595959;
+  color: #595959;
+  width: auto;
+  display: inline-flex;
+  padding: var(--dl-space-space-halfunit);
+  flex-wrap: wrap;
+  align-items: center;
+  padding-left: 8px;
+  border-radius: var(--dl-radius-radius-radius2);
+  flex-direction: row;
+}
+.loja-virtual-vinhos32-text {
+  display: none;
+  font-size: 18px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 500;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+.loja-virtual-vinhos32-dropdown-arrow {
+  transition: 0.3s;
+}
+.loja-virtual-vinhos32-icon10 {
+  width: 18px;
+  height: 18px;
+  display: none;
+  transition: 0.3s;
+}
+.loja-virtual-vinhos32-thq-dropdown01 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.loja-virtual-vinhos32-dropdown-toggle01 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius2);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.loja-virtual-vinhos32-text01 {
+  font-size: 18px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 500;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+.loja-virtual-vinhos32-dropdown-arrow1 {
+  transition: 0.3s;
+}
+.loja-virtual-vinhos32-icon12 {
+  width: 18px;
+  height: 18px;
+  transition: 0.3s;
+}
+.loja-virtual-vinhos32-dropdown-list {
+  left: 0%;
+  width: max-content;
+  display: none;
+  z-index: 100;
+  position: absolute;
+  min-width: 100%;
+  transition: 0.3s;
+  align-items: stretch;
+  border-color: #D9D9D9;
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: column;
+  list-style-type: none;
+  background-color: var(--dl-color-gray-white);
+  list-style-position: inside;
+}
+.loja-virtual-vinhos32-dropdown {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.loja-virtual-vinhos32-dropdown-toggle02 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.loja-virtual-vinhos32-dropdown-toggle02:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.loja-virtual-vinhos32-navlink01 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: none;
+}
+.loja-virtual-vinhos32-dropdown01 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.loja-virtual-vinhos32-dropdown-toggle03 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
+}
+.loja-virtual-vinhos32-dropdown-toggle03:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.loja-virtual-vinhos32-text02 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.loja-virtual-vinhos32-dropdown02 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.loja-virtual-vinhos32-dropdown-toggle04 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.loja-virtual-vinhos32-dropdown-toggle04:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.loja-virtual-vinhos32-navlink03 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: none;
+}
+.loja-virtual-vinhos32-thq-dropdown02 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.loja-virtual-vinhos32-dropdown-list01 {
+  left: 0%;
+  width: max-content;
+  display: none;
+  z-index: 100;
+  position: absolute;
+  min-width: 100%;
+  transition: 0.3s;
+  align-items: stretch;
+  border-color: #D9D9D9;
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: column;
+  list-style-type: none;
+  background-color: var(--dl-color-gray-white);
+  list-style-position: inside;
+}
+.loja-virtual-vinhos32-dropdown03 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.loja-virtual-vinhos32-dropdown-toggle05 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.loja-virtual-vinhos32-dropdown-toggle05:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.loja-virtual-vinhos32-navlink04 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: none;
+}
+.loja-virtual-vinhos32-dropdown04 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.loja-virtual-vinhos32-dropdown-toggle06 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.loja-virtual-vinhos32-dropdown-toggle06:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.loja-virtual-vinhos32-navlink05 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: none;
+}
+.loja-virtual-vinhos32-dropdown05 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.loja-virtual-vinhos32-dropdown-toggle07 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
+}
+.loja-virtual-vinhos32-dropdown-toggle07:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.loja-virtual-vinhos32-text03 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.loja-virtual-vinhos32-dropdown06 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.loja-virtual-vinhos32-dropdown-toggle08 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.loja-virtual-vinhos32-dropdown-toggle08:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.loja-virtual-vinhos32-navlink07 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: none;
+}
+.loja-virtual-vinhos32-thq-dropdown03 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.loja-virtual-vinhos32-dropdown-list02 {
+  left: 0%;
+  width: max-content;
+  display: none;
+  z-index: 100;
+  position: absolute;
+  min-width: 100%;
+  transition: 0.3s;
+  align-items: stretch;
+  border-color: #D9D9D9;
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: column;
+  list-style-type: none;
+  background-color: var(--dl-color-gray-white);
+  list-style-position: inside;
+}
+.loja-virtual-vinhos32-dropdown07 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.loja-virtual-vinhos32-dropdown-toggle09 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.loja-virtual-vinhos32-dropdown-toggle09:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.loja-virtual-vinhos32-text04 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.loja-virtual-vinhos32-dropdown08 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.loja-virtual-vinhos32-dropdown-toggle10 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.loja-virtual-vinhos32-dropdown-toggle10:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.loja-virtual-vinhos32-text05 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.loja-virtual-vinhos32-dropdown09 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.loja-virtual-vinhos32-dropdown-toggle11 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.loja-virtual-vinhos32-dropdown-toggle11:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.loja-virtual-vinhos32-text06 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.loja-virtual-vinhos32-thq-dropdown04 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.loja-virtual-vinhos32-dropdown-list03 {
+  left: 0%;
+  width: max-content;
+  display: none;
+  z-index: 100;
+  position: absolute;
+  min-width: 100%;
+  transition: 0.3s;
+  align-items: stretch;
+  border-color: #D9D9D9;
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: column;
+  list-style-type: none;
+  background-color: var(--dl-color-gray-white);
+  list-style-position: inside;
+}
+.loja-virtual-vinhos32-dropdown10 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.loja-virtual-vinhos32-dropdown-toggle12 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.loja-virtual-vinhos32-dropdown-toggle12:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.loja-virtual-vinhos32-navlink08 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: none;
+}
+.loja-virtual-vinhos32-dropdown11 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.loja-virtual-vinhos32-dropdown-toggle13 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
+}
+.loja-virtual-vinhos32-dropdown-toggle13:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.loja-virtual-vinhos32-navlink09 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: none;
+}
+.loja-virtual-vinhos32-dropdown12 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.loja-virtual-vinhos32-dropdown-toggle14 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.loja-virtual-vinhos32-dropdown-toggle14:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.loja-virtual-vinhos32-navlink10 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: none;
+}
+.loja-virtual-vinhos32-thq-dropdown05 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.loja-virtual-vinhos32-dropdown-list04 {
+  left: 0%;
+  width: max-content;
+  display: none;
+  z-index: 100;
+  position: absolute;
+  min-width: 100%;
+  transition: 0.3s;
+  align-items: stretch;
+  border-color: #D9D9D9;
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: column;
+  list-style-type: none;
+  background-color: var(--dl-color-gray-white);
+  list-style-position: inside;
+}
+.loja-virtual-vinhos32-dropdown13 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.loja-virtual-vinhos32-dropdown-toggle15 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.loja-virtual-vinhos32-dropdown-toggle15:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.loja-virtual-vinhos32-navlink11 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: none;
+}
+.loja-virtual-vinhos32-dropdown14 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.loja-virtual-vinhos32-dropdown15 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.loja-virtual-vinhos32-thq-dropdown06 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.loja-virtual-vinhos32-dropdown-list05 {
+  left: 0%;
+  width: max-content;
+  display: none;
+  z-index: 100;
+  position: absolute;
+  min-width: 100%;
+  transition: 0.3s;
+  align-items: stretch;
+  border-color: #D9D9D9;
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: column;
+  list-style-type: none;
+  background-color: var(--dl-color-gray-white);
+  list-style-position: inside;
+}
+.loja-virtual-vinhos32-dropdown16 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.loja-virtual-vinhos32-dropdown-toggle16 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.loja-virtual-vinhos32-dropdown-toggle16:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.loja-virtual-vinhos32-text07 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.loja-virtual-vinhos32-dropdown17 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.loja-virtual-vinhos32-dropdown-toggle17 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.loja-virtual-vinhos32-dropdown-toggle17:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.loja-virtual-vinhos32-text08 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.loja-virtual-vinhos32-dropdown18 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.loja-virtual-vinhos32-dropdown-toggle18 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.loja-virtual-vinhos32-dropdown-toggle18:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.loja-virtual-vinhos32-text09 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.loja-virtual-vinhos32-thq-dropdown07 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.loja-virtual-vinhos32-dropdown-toggle19 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius2);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.loja-virtual-vinhos32-navlink12 {
+  font-size: 18px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 500;
+  margin-right: 4px;
+  vertical-align: middle;
+  text-decoration: none;
+}
+.loja-virtual-vinhos32-dropdown-arrow2 {
+  transition: 0.3s;
+}
+.loja-virtual-vinhos32-icon14 {
+  width: 18px;
+  height: 18px;
+  transition: 0.3s;
+}
+.loja-virtual-vinhos32-dropdown-list06 {
+  left: 0%;
+  width: max-content;
+  display: none;
+  z-index: 100;
+  position: absolute;
+  min-width: 100%;
+  transition: 0.3s;
+  align-items: stretch;
+  border-color: #D9D9D9;
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: column;
+  list-style-type: none;
+  background-color: var(--dl-color-gray-white);
+  list-style-position: inside;
+}
+.loja-virtual-vinhos32-dropdown19 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.loja-virtual-vinhos32-dropdown-toggle20 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.loja-virtual-vinhos32-dropdown-toggle20:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.loja-virtual-vinhos32-navlink13 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: none;
+}
+.loja-virtual-vinhos32-dropdown20 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.loja-virtual-vinhos32-dropdown-toggle21 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
+}
+.loja-virtual-vinhos32-dropdown-toggle21:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.loja-virtual-vinhos32-text10 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.loja-virtual-vinhos32-dropdown21 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.loja-virtual-vinhos32-dropdown-toggle22 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
+}
+.loja-virtual-vinhos32-dropdown-toggle22:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.loja-virtual-vinhos32-text11 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.loja-virtual-vinhos32-thq-dropdown08 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.loja-virtual-vinhos32-dropdown-toggle23 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius2);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.loja-virtual-vinhos32-text12 {
+  font-size: 18px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 500;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+.loja-virtual-vinhos32-dropdown-arrow3 {
+  transition: 0.3s;
+}
+.loja-virtual-vinhos32-icon16 {
+  width: 18px;
+  height: 18px;
+  transition: 0.3s;
+}
+.loja-virtual-vinhos32-dropdown-list07 {
+  left: 0%;
+  width: max-content;
+  display: none;
+  z-index: 100;
+  position: absolute;
+  min-width: 100%;
+  transition: 0.3s;
+  align-items: stretch;
+  border-color: #D9D9D9;
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: column;
+  list-style-type: none;
+  background-color: var(--dl-color-gray-white);
+  list-style-position: inside;
+}
+.loja-virtual-vinhos32-dropdown22 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.loja-virtual-vinhos32-dropdown-toggle24 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.loja-virtual-vinhos32-dropdown-toggle24:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.loja-virtual-vinhos32-navlink16 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: none;
+}
+.loja-virtual-vinhos32-dropdown23 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.loja-virtual-vinhos32-dropdown-toggle25 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.loja-virtual-vinhos32-dropdown-toggle25:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.loja-virtual-vinhos32-navlink17 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: none;
+}
+.loja-virtual-vinhos32-dropdown24 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.loja-virtual-vinhos32-dropdown-toggle26 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.loja-virtual-vinhos32-dropdown-toggle26:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.loja-virtual-vinhos32-navlink18 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: none;
+}
+.loja-virtual-vinhos32-thq-dropdown09 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.loja-virtual-vinhos32-dropdown-toggle27 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius2);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.loja-virtual-vinhos32-text13 {
+  font-size: 18px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 500;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+.loja-virtual-vinhos32-dropdown-arrow4 {
+  transition: 0.3s;
+}
+.loja-virtual-vinhos32-icon18 {
+  width: 18px;
+  height: 18px;
+  transition: 0.3s;
+}
+.loja-virtual-vinhos32-dropdown-list08 {
+  left: 0%;
+  width: max-content;
+  display: none;
+  z-index: 100;
+  position: absolute;
+  min-width: 100%;
+  transition: 0.3s;
+  align-items: stretch;
+  border-color: #D9D9D9;
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: column;
+  list-style-type: none;
+  background-color: var(--dl-color-gray-white);
+  list-style-position: inside;
+}
+.loja-virtual-vinhos32-dropdown25 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.loja-virtual-vinhos32-dropdown-toggle28 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.loja-virtual-vinhos32-dropdown-toggle28:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.loja-virtual-vinhos32-navlink19 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: none;
+}
+.loja-virtual-vinhos32-dropdown26 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.loja-virtual-vinhos32-dropdown-toggle29 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
+}
+.loja-virtual-vinhos32-dropdown-toggle29:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.loja-virtual-vinhos32-text14 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.loja-virtual-vinhos32-dropdown27 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.loja-virtual-vinhos32-dropdown-toggle30 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
+}
+.loja-virtual-vinhos32-dropdown-toggle30:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.loja-virtual-vinhos32-text15 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.loja-virtual-vinhos32-thq-dropdown10 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.loja-virtual-vinhos32-dropdown-toggle31 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius2);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.loja-virtual-vinhos32-text16 {
+  font-size: 18px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 500;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+.loja-virtual-vinhos32-dropdown-arrow5 {
+  transition: 0.3s;
+}
+.loja-virtual-vinhos32-icon20 {
+  width: 18px;
+  height: 18px;
+  transition: 0.3s;
+}
+.loja-virtual-vinhos32-dropdown-list09 {
+  left: 0%;
+  width: max-content;
+  display: none;
+  z-index: 100;
+  position: absolute;
+  min-width: 100%;
+  transition: 0.3s;
+  align-items: stretch;
+  border-color: #D9D9D9;
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: column;
+  list-style-type: none;
+  background-color: var(--dl-color-gray-white);
+  list-style-position: inside;
+}
+.loja-virtual-vinhos32-dropdown28 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.loja-virtual-vinhos32-dropdown-toggle32 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.loja-virtual-vinhos32-dropdown-toggle32:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.loja-virtual-vinhos32-navlink22 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: none;
+}
+.loja-virtual-vinhos32-dropdown29 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.loja-virtual-vinhos32-container2 {
+  width: auto;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loja-virtual-vinhos32-gallery {
+  width: auto;
+  height: 908px;
+  display: grid;
+  padding: var(--dl-space-space-threeunits);
+  grid-gap: var(--dl-space-space-unit);
+  max-width: var(--dl-size-size-maxwidth);
+  padding-bottom: 115px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.loja-virtual-vinhos32-footer {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dl-color-gray-black);
+}
+.loja-virtual-vinhos32-footer1 {
+  width: 100%;
+  display: flex;
+  max-width: auto;
+  align-items: center;
+  padding-top: 38px;
+  padding-right: 0px;
+  flex-direction: column;
+  padding-bottom: 38px;
+  justify-content: space-between;
+  background-image: linear-gradient(180deg, rgb(191, 145, 145) 0.00%,rgb(127, 85, 85) 100.00%);
+}
+.loja-virtual-vinhos32-container3 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.loja-virtual-vinhos32-logo1 {
+  color: var(--dl-color-gray-white);
+  font-size: 2em;
+  font-weight: bold;
+}
+.loja-virtual-vinhos32-nav1 {
+  flex: 0 0 auto;
+  display: flex;
+  margin-top: 0px;
+  align-items: center;
+  flex-direction: row;
+}
+.loja-virtual-vinhos32-nav12 {
+  color: var(--dl-color-secondary-gray500);
+  margin-left: 0px;
+  text-decoration: none;
+}
+.loja-virtual-vinhos32-nav22 {
+  color: var(--dl-color-secondary-gray500);
+  margin-left: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.loja-virtual-vinhos32-nav31 {
+  color: var(--dl-color-secondary-gray500);
+  margin-left: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.loja-virtual-vinhos32-nav42 {
+  color: var(--dl-color-secondary-gray500);
+  margin-left: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.loja-virtual-vinhos32-nav52 {
+  color: var(--dl-color-secondary-gray500);
+  margin-left: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.loja-virtual-vinhos32-separator {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 0px;
+  display: flex;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: flex-start;
+  margin-left: 0px;
+  border-color: var(--dl-color-gray-800);
+  border-style: solid;
+  border-width: 1px;
+  margin-right: 0px;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: row;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+.loja-virtual-vinhos32-container4 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.loja-virtual-vinhos32-text17 {
+  color: var(--dl-color-secondary-gray500);
+}
+.loja-virtual-vinhos32-icon-group1 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.loja-virtual-vinhos32-link {
+  display: contents;
+}
+.loja-virtual-vinhos32-icon22 {
+  fill: var(--dl-color-secondary-gray500);
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.loja-virtual-vinhos32-link1 {
+  display: contents;
+}
+.loja-virtual-vinhos32-icon24 {
+  fill: var(--dl-color-secondary-gray500);
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.loja-virtual-vinhos32-link2 {
+  display: contents;
+}
+.loja-virtual-vinhos32-icon26 {
+  fill: var(--dl-color-secondary-gray500);
+  width: 24px;
+  height: 24px;
+  text-decoration: none;
+}
+@media(max-width: 991px) {
+  .loja-virtual-vinhos32-gallery {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media(max-width: 767px) {
+  .loja-virtual-vinhos32-navbar-interactive {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .loja-virtual-vinhos32-burger-menu {
+    align-items: center;
+    justify-content: center;
+  }
+  .loja-virtual-vinhos32-mobile-menu {
+    padding-top: var(--dl-space-space-oneandhalfunits);
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+    padding-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .loja-virtual-vinhos32-nav11 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .loja-virtual-vinhos32-nav21 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .loja-virtual-vinhos32-nav3 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .loja-virtual-vinhos32-nav41 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .loja-virtual-vinhos32-nav51 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .loja-virtual-vinhos32-gallery {
+    flex: 1;
+    height: 840px;
+    max-width: auto;
+    margin-top: 0px;
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .loja-virtual-vinhos32-footer1 {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .loja-virtual-vinhos32-separator {
+    margin-top: var(--dl-space-space-oneandhalfunits);
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .loja-virtual-vinhos32-container4 {
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .loja-virtual-vinhos32-text17 {
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+}
+@media(max-width: 479px) {
+  .loja-virtual-vinhos32-navbar-interactive {
+    width: 90%;
+    padding: var(--dl-space-space-unit);
+    padding-right: 16px;
+  }
+  .loja-virtual-vinhos32-image {
+    width: var(--dl-size-size-medium);
+  }
+  .loja-virtual-vinhos32-desktop-menu {
+    display: none;
+  }
+  .loja-virtual-vinhos32-burger-menu {
+    display: flex;
+  }
+  .loja-virtual-vinhos32-mobile-menu {
+    padding: 16px;
+  }
+  .loja-virtual-vinhos32-logo {
+    font-size: 1.5em;
+  }
+  .loja-virtual-vinhos32-icon02 {
+    fill: var(--dl-color-gray-900);
+  }
+  .loja-virtual-vinhos32-dropdown-toggle {
+    justify-content: center;
+  }
+  .loja-virtual-vinhos32-gallery {
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    align-self: flex-end;
+    padding-top: var(--dl-space-space-twounits);
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .loja-virtual-vinhos32-footer1 {
+    padding: var(--dl-space-space-unit);
+  }
+  .loja-virtual-vinhos32-separator {
+    margin-top: var(--dl-space-space-oneandhalfunits);
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .loja-virtual-vinhos32-container4 {
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .loja-virtual-vinhos32-text17 {
+    text-align: center;
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+}

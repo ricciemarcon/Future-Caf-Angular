@@ -1,0 +1,59 @@
+<div class="image-slider-container" [ngClass]="rootClassName">
+  <div *ngIf="SlideNumber1 === 1" class="image-slider-slide-1">
+    <img
+      [attr.alt]="imagealt"
+      [attr.src]="imagesrc"
+      class="image-slider-image"
+    />
+    <div class="image-slider-container1">
+      <div (click)="slideNumber1 = 3" class="image-slider-left-button">
+        <svg viewBox="0 0 1024 1024" class="image-slider-icon">
+          <path d="M658 708l-60 60-256-256 256-256 60 60-196 196z"></path>
+        </svg>
+      </div>
+      <div (click)="slideNumber1 = 2" class="image-slider-r-ight-button">
+        <svg viewBox="0 0 1024 1024" class="image-slider-icon02">
+          <path d="M366 708l196-196-196-196 60-60 256 256-256 256z"></path>
+        </svg>
+      </div>
+    </div>
+  </div>
+  <div *ngIf="SlideNumber1 === 2" class="image-slider-slide-2">
+    <img
+      [attr.alt]="imagealt2"
+      [attr.src]="imagesrc2"
+      class="image-slider-image1"
+    />
+    <div class="image-slider-container2">
+      <div (click)="slideNumber1 = 1" class="image-slider-left-button1">
+        <svg viewBox="0 0 1024 1024" class="image-slider-icon04">
+          <path d="M658 708l-60 60-256-256 256-256 60 60-196 196z"></path>
+        </svg>
+      </div>
+      <div (click)="slideNumber1 = 3" class="image-slider-r-ight-button1">
+        <svg viewBox="0 0 1024 1024" class="image-slider-icon06">
+          <path d="M366 708l196-196-196-196 60-60 256 256-256 256z"></path>
+        </svg>
+      </div>
+    </div>
+  </div>
+  <div *ngIf="SlideNumber1 === 3" class="image-slider-slide-21">
+    <img
+      [attr.alt]="imagealt21"
+      [attr.src]="imagesrc21"
+      class="image-slider-image2"
+    />
+    <div class="image-slider-container3">
+      <div (click)="slideNumber1 = 2" class="image-slider-left-button2">
+        <svg viewBox="0 0 1024 1024" class="image-slider-icon08">
+          <path d="M658 708l-60 60-256-256 256-256 60 60-196 196z"></path>
+        </svg>
+      </div>
+      <div (click)="slideNumber1 = 1" class="image-slider-r-ight-button2">
+        <svg viewBox="0 0 1024 1024" class="image-slider-icon10">
+          <path d="M366 708l196-196-196-196 60-60 256 256-256 256z"></path>
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>

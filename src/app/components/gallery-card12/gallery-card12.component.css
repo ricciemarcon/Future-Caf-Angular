@@ -1,0 +1,125 @@
+:host { 
+  display: contents; 
+}
+.gallery-card12-gallery-card {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.gallery-card12-image {
+  width: 355px;
+  height: 249px;
+  object-fit: cover;
+}
+.gallery-card12-text {
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-halfunit);
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.gallery-card12-text1 {
+  color: var(--dl-color-gray-500);
+  align-self: flex-start;
+}
+.gallery-card12-root-class-name {
+  width: auto;
+}
+.gallery-card12-root-class-name1 {
+  width: auto;
+}
+.gallery-card12-root-class-name2 {
+  width: auto;
+}
+.gallery-card12-root-class-name3 {
+  width: auto;
+}
+.gallery-card12-root-class-name4 {
+  width: auto;
+}
+.gallery-card12-root-class-name5 {
+  width: auto;
+}
+.gallery-card12-root-class-name6 {
+  width: auto;
+}
+.gallery-card12-root-class-name7 {
+  width: auto;
+}
+.gallery-card12-root-class-name8 {
+  width: auto;
+}
+.gallery-card12-root-class-name9 {
+  width: auto;
+}
+.gallery-card12-root-class-name10 {
+  width: auto;
+}
+.gallery-card12-root-class-name11 {
+  width: auto;
+}
+.gallery-card12-root-class-name12 {
+  width: auto;
+}
+.gallery-card12-root-class-name13 {
+  width: auto;
+}
+.gallery-card12-root-class-name14 {
+  width: auto;
+}
+.gallery-card12-root-class-name15 {
+  width: auto;
+}
+.gallery-card12-root-class-name16 {
+  width: auto;
+}
+.gallery-card12-root-class-name17 {
+  width: auto;
+}
+.gallery-card12-root-class-name18 {
+  width: auto;
+}
+.gallery-card12-root-class-name19 {
+  width: auto;
+}
+.gallery-card12-root-class-name20 {
+  width: auto;
+}
+.gallery-card12-root-class-name21 {
+  width: auto;
+}
+.gallery-card12-root-class-name22 {
+  width: auto;
+}
+.gallery-card12-root-class-name23 {
+  width: auto;
+}
+.gallery-card12-root-class-name24 {
+  width: auto;
+}
+.gallery-card12-root-class-name25 {
+  width: auto;
+}
+.gallery-card12-root-class-name26 {
+  width: auto;
+}
+.gallery-card12-root-class-name27 {
+  width: auto;
+}
+.gallery-card12-root-class-name28 {
+  width: auto;
+}
+.gallery-card12-root-class-name29 {
+  width: auto;
+}
+@media(max-width: 767px) {
+  .gallery-card12-gallery-card {
+    flex-direction: column;
+  }
+}
+@media(max-width: 479px) {
+  .gallery-card12-image {
+    height: 10rem;
+  }
+}
